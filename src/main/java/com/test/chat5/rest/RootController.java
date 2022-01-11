@@ -13,8 +13,8 @@ public class RootController implements ErrorController {
 
     @GetMapping({ "/", "/error" })
     public String getUsers() {
-        // return "/vue/index.html";
-        return "/index.html";
+        return "/vue/index.html";
+        // return "/index.html";
     }
 
     // @Override
